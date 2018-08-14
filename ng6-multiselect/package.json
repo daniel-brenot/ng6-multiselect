@@ -1,0 +1,24 @@
+{
+  "name": "ng6-multiselect",
+  "version": "0.0.2",
+  "peerDependencies": {
+    "@angular/common": "^6.0.0-rc.0 || ^6.0.0",
+    "@angular/core": "^6.0.0-rc.0 || ^6.0.0"
+  },
+  "devDependencies": {
+    "ng-packagr": "^3.0.0-rc.2"
+  },
+  "main": "bundles/ng6-multiselect.umd.js",
+  "module": "fesm5/ng6-multiselect.js",
+  "es2015": "fesm2015/ng6-multiselect.js",
+  "esm5": "esm5/ng6-multiselect.js",
+  "esm2015": "esm2015/ng6-multiselect.js",
+  "fesm5": "fesm5/ng6-multiselect.js",
+  "fesm2015": "fesm2015/ng6-multiselect.js",
+  "typings": "ng6-multiselect.d.ts",
+  "metadata": "ng6-multiselect.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  }
+}
