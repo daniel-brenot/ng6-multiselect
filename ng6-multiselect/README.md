@@ -1,8 +1,8 @@
-# Angular2 Multiselect
+# Angular6 Multiselect
 Angular 6 bootstrap-style
 
 
-# [Documentation](http://cuppalabs.github.io/components/multiselectDropdown) | [Demo](https://cuppalabs.github.io/angular2-multiselect-dropdown).
+# [Documentation](https://github.com/daniel-brenot/ng6-multiselect)
 
 ## Getting Started
 ### Installation
@@ -15,7 +15,7 @@ Angular 6 bootstrap-style
 ### Usage
 Import `Ng6MultiselectModule` into `NgModule` in `app.module.ts`
 ```js
-import { NG6MultiselectModule } from 'angular2-multiselect-checkbox-dropdown/angular2-multiselect-dropdown';
+import { NG6MultiselectModule } from 'ng6-multiselect';
 
 @NgModule({
   // ...
@@ -84,7 +84,11 @@ export class AppComponent {
 
 Add the following component tag in you template 
 ```html
-<ng6-multiselect [data]="displayData" [(ngModel)]="data" 
+<ng6-multiselect 
+    [data]="displayData" 
+    [(ngModel)]="data"
+    [emptyTitle]="emptyTitle"
+    [selectedTitle]="selectedTitle"
     (onSelectChange)="onSelectChange($event)" 
     (onDeselect)="onSelect($event)"
     (onDeselect)="onDeselect($event)"
